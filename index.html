@@ -1,0 +1,70 @@
+
+<!doctype html>
+<html>
+<head>
+  <title>Navbar Animations</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <link rel="stylesheet" media="screen" href="/css/base.css" >
+  <link rel="stylesheet" media="screen" href="/css/transitions.css" >
+</head>
+  
+<body>
+
+  <div class="container">
+
+    <header class="row">
+      <div class="span12">
+        <h1>Navbar Animations</h1>
+        <p class="lead">Experimenting with CSS transforms</p>
+      </div>
+    </header>
+
+    <div class="row" id="container">
+
+      <div class="templates">
+        
+        <section id="template1" class="span4">
+          <div class="navbar-container">
+            <div class="nav title">
+              <h1>Navbar</h1>
+              <div class="search button">Search</div>
+            </div>
+            <div class="nav search">
+              <input type="text" placeholder="Search" />
+              <div class="close button">Close</div>
+            </div>
+          </div>
+        </section>
+
+        <section id="template2" class="span4">
+          <div class="navbar-container">
+            <div class="search button">Search</div>
+            <div class="close button">Close</div>
+            <div class="nav title">
+              <h1>Navbar</h1>
+            </div>
+            <div class="nav search">
+              <input type="text" placeholder="Search" />
+            </div>
+          </div>
+        </section>
+
+      </div>
+
+    </div>
+
+    <div class="row">
+      <section class="span12">
+        <h1>Sources</h1>
+        <ul>
+          <li>David DeSandro's <a href="http://desandro.github.io/3dtransforms/">Intro to CSS 3D transforms</a> is still the best resource I could find on CSS 3D transforms.</li>
+          <li>Chris Coyier's <a href="http://css-tricks.com/snippets/css/keyframe-animation-syntax/">Keyframe Animation Syntax</a> is a useful reference for CSS keyframe animations.</li>
+          <li><a href="http://vimeo.com/m/">Vimeo's mobile site</a> provided inspiration for the .spin animation.</li>
+          <li>The iOS navbar styling came courtesy of <a href="http://cheeaun.com/blog/2012/03/how-i-built-hacker-news-mobile-web-app">cheeaun.com</a> and <a href="http://cssnerd.com/2011/11/30/the-best-pure-css3-ios-style-arrow-back-button/">cssnerd.com</a>.
+      </section>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
