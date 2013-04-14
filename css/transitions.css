@@ -79,6 +79,11 @@
   left: -300px;
 }
 
+.slide-right-fade > .nav h1, .slide-right-fade > .nav input {
+  -webkit-transition-duration: .25s;
+  -webkit-animation-duration: .25s;
+}
+
 .slide-right-fade.toggle > .nav {
   -webkit-transform: translateX(100%);
 }
@@ -95,7 +100,6 @@
 
 .slide-right-fade > .nav.title h1 {
   -webkit-animation-name: titlefadein;
-  -webkit-animation-duration: 0.3s;
 }
 
 .slide-right-fade.toggle > .nav.search input[type="text"] {
@@ -104,7 +108,6 @@
 
 .slide-right-fade.toggle > .nav.title h1 {
   -webkit-animation-name: titlefadeout;
-  -webkit-animation-duration: 0.3s;
 }
 
 .slide-right-fade .search.button {
