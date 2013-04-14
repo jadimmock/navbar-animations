@@ -21,7 +21,6 @@
 
 
 /* slide-up */
-
 .slide-up.toggle > .nav {
   -webkit-transform: translateY(-36px);
 }
